@@ -17,7 +17,7 @@ parser.add_argument("-d", "--document", dest="doc",
 
 parser.add_argument("-r", "--recipient", dest="recipient",
                     default="me", type=str,
-                    help="which user to send the file to (default: self)")
+                    help="which chat to send the file to (default: self)")
 
 parser.add_argument("-c", "--caption", dest="caption",
                     type=str, help="file caption")
